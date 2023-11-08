@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+}
+
+@font-face {
+    font-family: "Neosans";
+    src: url("./assets/fonts/neo_sans_std_regular.woff") format("woff");;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+    font-weight: 700;
+}
+
+p,
+a,
+a:link,
+a:visited,
+a:active,
+button {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+p {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+button {
+    font-weight: 700;
+}
+
+strong {
+    font-weight: 700!important;
+}
+
+@media(max-width: 786px) {
+    h3 {
+        font-size: 20px;
+    }
+    
+    p,
+    a,
+    a:link,
+    a:visited,
+    a:active,
+    button {
+        font-size: 14px;
+    }
+}
+
+body, 
+#root {
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+}
+
+body {
+    font-family: "Neosans";
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}

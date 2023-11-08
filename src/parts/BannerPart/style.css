@@ -1,0 +1,17 @@
+.banner_part {
+    width: 100%;
+    height: auto;
+    padding: 40px 0;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FF245F;
+    line-height: 23px;
+}
+
+.banner_part h4 {
+    color: #FFF;
+}
+
+.banner_part h5 {
+    color: #FCB600;
+}

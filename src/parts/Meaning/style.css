@@ -1,0 +1,177 @@
+.what {
+    width: 100%;
+    height: auto;
+    padding-top: 20%;
+    background-color: #FF245F;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.what .row {
+    width: 45%;
+    order: 2;
+}
+
+.what .what_data {
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.what .banner {
+    width: 50%;
+    order: 1;
+}
+
+.what .description {
+    width: 50%;
+    order: 2;
+}
+
+.what .banner img {
+    width: 100%;
+    height: auto;
+}
+
+.what p,
+.what h3 {
+    color: #FFF;
+}
+
+.what p {
+    font-weight: 500;
+}
+
+.what .window p {
+    background-color: #FF245F;
+}
+
+.what .description strong {
+    font-weight: 700;
+}
+
+.what .description {
+    padding: 0 25px;
+    box-sizing: border-box;    
+}
+
+.what .pointer_m img {    
+    left: 75%;
+}
+
+.what .row aside {
+    width: 100%;
+}
+
+.what .objective {
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 10%;
+    bottom: -15%;    
+    z-index: 2;
+}
+
+.what .objective section {
+    width: 100%;
+}
+
+.what .objective h3 {
+    color: #000;
+}
+
+.what .objective p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.what .objective strong {
+    color: #000;
+}
+
+.what .objective_01 img {
+    width: 170px;
+    height: auto;
+}
+
+.what .objective_02 img {
+    width: 250px;
+    height: auto;
+}
+
+@media(max-width: 1280px) {
+    .what {
+        padding-top: 25%;
+    }
+
+    .what .objective {
+        bottom: -25%; 
+    }
+}
+
+@media(max-width: 992px) {
+    .what .objective {
+        bottom: -45%; 
+    }
+}
+
+@media(max-width: 786px) {
+    .what {
+        padding-top: 10%;
+    }
+
+    .what .row,
+    .what .banner, 
+    .what .description {
+        width: 100%;
+    }
+
+    .what,
+    .what .what_data {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .what .banner img {
+        width: 310px;
+        margin: 20px 0;
+    }
+
+    .what .banner {
+        order: 2;
+    }
+    
+    .what .description {
+        order: 1;
+    }
+
+    .what .pointer_m img {    
+        left: 85%;
+    }
+
+    .what .objective {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .what .objective_01 img {
+        width: 170px;
+    }
+    
+    .what .objective_02 img {
+        width: 220px;
+    }
+}

@@ -1,0 +1,21 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 25px 0;
+    background-color: #3F3D56;    
+}
+
+.footer .column {
+    align-items: center;
+}
+
+.footer img {
+    width: 300px;
+    height: auto;
+}
+
+@media(max-width: 786px) {
+    .footer img {
+        width: 250px;
+    }
+}

@@ -1,0 +1,86 @@
+.existence {
+    width: 100%;
+    height: auto;
+    padding: 15% 0 40px 0;
+    background-color: #FFF;
+}
+
+.existence .existence_window {
+    width: 30%;    
+}
+
+.existence .comment {
+    width: 70%;
+    height: auto;
+    padding: 30px;
+}
+
+.existence .existence_window,
+.existence .comment {
+    height: auto;
+}
+
+.existence .comment img {
+    width: 550px;
+}
+
+.existence .window {
+    background-color: #000;
+}
+
+.existence .window p {
+    background-color: #FFF;
+}
+
+.existence .border_window {
+    border-color: #000;
+}
+
+.existence .pointer_m img {
+    left: 20px;
+}
+
+.existence .comment p,
+.existence p,
+.existence h6 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+@media(max-width: 1280px) {
+    .existence {
+        padding-top: 25%;
+    }
+}
+
+@media(max-width: 992px) {
+    .existence {
+        padding-top: 40%;
+    }
+}
+
+@media(max-width: 786px) {
+    .existence {
+        padding-top: 10%;
+    }
+
+    .existence .row {
+        flex-wrap: wrap;
+    }
+
+    .existence .existence_window,
+    .existence .comment {
+        width: 100%;
+    }
+
+    .existence .comment img {
+        width: 220px;
+    }
+
+    .existence .existence_window {
+        order: 2;
+    }    
+    
+    .existence .comment {
+        order: 1;
+    }
+}

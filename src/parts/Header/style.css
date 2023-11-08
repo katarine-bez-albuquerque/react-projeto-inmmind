@@ -1,0 +1,84 @@
+.header {
+    width: 100%;
+    height: 150px;
+    background-color: #FCB600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header .logo,
+.header .period {
+    width: 100%;
+    height: auto;
+}
+
+.header .logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.header .period {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.header .period .period_icons {
+    width: 300px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+}
+
+.header .logo img {
+    width: 220px;
+    height: auto;
+}
+
+.header .period img {
+    width: 25px;
+    height: auto;
+    margin: 0 10px;
+}
+
+.header .period p strong {
+    color: #FFF;
+}
+
+.header .period .period_online {
+    width: 300px;
+    text-align: right;
+    position: relative;
+    top: 10px;
+    right: 45px;
+}
+
+@media(max-width: 786px) {
+    .header .row {
+        flex-wrap: wrap;
+    }
+
+    .header .logo,
+    .header .period,
+    .header .period .period_icons,
+    .header .period .period_online {
+        justify-content: center;
+        align-items: center;      
+        line-height: 20px;  
+    }
+
+    .header .period .period_online {
+        position: inherit;
+        text-align: center;
+        position: static;
+    }
+
+    .header .logo {
+        margin: 20px;
+    }
+
+    .header .logo img {
+        width: 170px;
+    }
+}
